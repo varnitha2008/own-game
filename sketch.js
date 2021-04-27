@@ -44,7 +44,7 @@ function draw(){
     gameState = "play";
     avatar1.visible=true;
     avatar2.visible=true;
-    
+ }  
     if(mouseIsOver(avatar1)){
       console.log("avatar 1 is pressed")
       avatar2.visible=false;
@@ -54,7 +54,7 @@ function draw(){
      avatar1.destroy();
      
    }
- }
+ 
 
 
  drawSprites();
